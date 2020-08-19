@@ -1,4 +1,7 @@
-package com.javamultiplex.principle.solid.ocp;
+package com.javamultiplex.principle.solid.ocp.good;
+
+import com.javamultiplex.principle.solid.ocp.Product;
+import com.javamultiplex.principle.solid.ocp.Size;
 
 /**
  * @author Rohit Agarwal on 16/08/20 2:40 pm

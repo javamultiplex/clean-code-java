@@ -1,4 +1,4 @@
-package com.javamultiplex.principle.solid.ocp;
+package com.javamultiplex.principle.solid.ocp.good;
 
 import java.util.List;
 import java.util.stream.Stream;

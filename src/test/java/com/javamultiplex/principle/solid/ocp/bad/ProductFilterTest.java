@@ -1,5 +1,8 @@
-package com.javamultiplex.principle.solid.ocp;
+package com.javamultiplex.principle.solid.ocp.bad;
 
+import com.javamultiplex.principle.solid.ocp.Color;
+import com.javamultiplex.principle.solid.ocp.Product;
+import com.javamultiplex.principle.solid.ocp.Size;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -12,14 +15,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * @author Rohit Agarwal on 16/08/20 2:58 pm
  * @copyright www.javamultiplex.com
  */
-public class OldProductFilterTest {
+public class ProductFilterTest {
 
-    private OldProductFilter oldProductFilter;
+    private ProductFilter productFilter;
     private List<Product> products;
 
     @BeforeEach
     void setUp() {
-        oldProductFilter = new OldProductFilter();
+        productFilter = new ProductFilter();
         Product apple = new Product("Apple", Color.GREEN, Size.SMALL);
         Product tree = new Product("Tree", Color.GREEN, Size.LARGE);
         Product house = new Product("House", Color.BLUE, Size.LARGE);
@@ -28,7 +31,7 @@ public class OldProductFilterTest {
 
     @Test
     public void shouldFilterByColor() {
-        List<Product> productList = oldProductFilter.filterByColor(products, Color.GREEN)
+        List<Product> productList = productFilter.filterByColor(products, Color.GREEN)
                 .collect(Collectors.toList());
         assertEquals(2, productList.size());
         List<String> actual = productList.stream().map(Product::getName)
@@ -38,7 +41,7 @@ public class OldProductFilterTest {
 
     @Test
     public void shouldFilterBySize() {
-        List<Product> productList = oldProductFilter.filterBySize(products, Size.SMALL)
+        List<Product> productList = productFilter.filterBySize(products, Size.SMALL)
                 .collect(Collectors.toList());
         assertEquals(1, productList.size());
         List<String> actual = productList.stream().map(Product::getName)
@@ -47,8 +50,8 @@ public class OldProductFilterTest {
     }
 
     @Test
-    public void shouldFilterByColorAndSize(){
-        List<Product> productList = oldProductFilter.filterByColorAndSize(products, Color.GREEN, Size.LARGE)
+    public void shouldFilterByColorAndSize() {
+        List<Product> productList = productFilter.filterByColorAndSize(products, Color.GREEN, Size.LARGE)
                 .collect(Collectors.toList());
         assertEquals(1, productList.size());
         List<String> actual = productList.stream().map(Product::getName)

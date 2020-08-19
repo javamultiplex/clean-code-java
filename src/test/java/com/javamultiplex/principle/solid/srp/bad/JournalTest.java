@@ -1,9 +1,9 @@
-package com.javamultiplex.principle.solid.srp;
+package com.javamultiplex.principle.solid.srp.bad;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.io.IOException;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -18,11 +18,11 @@ public class JournalTest {
 
     @BeforeEach
     void setUp() {
-        journal=new Journal();
+        journal = new Journal();
     }
 
     @Test
-    public void shouldAddEntry(){
+    public void shouldAddEntry() {
         journal.addEntry("Learn Clean Code");
         journal.addEntry("Learn to play Guitar");
         String expected = "Learn Clean Code\n" +
@@ -31,7 +31,7 @@ public class JournalTest {
     }
 
     @Test
-    public void shouldAddEntries(){
+    public void shouldAddEntries() {
         List<String> entries = List.of("Learn Clean Code", "Learn to play Guitar");
         journal.addEntries(entries);
         String expected = "Learn Clean Code\n" +
@@ -40,7 +40,7 @@ public class JournalTest {
     }
 
     @Test
-    public void shouldRemoveEntry(){
+    public void shouldRemoveEntry() {
         journal.addEntry("Learn Clean Code");
         journal.addEntry("Learn to play Guitar");
         String expected = "Learn Clean Code\n" +
@@ -48,5 +48,21 @@ public class JournalTest {
         assertEquals(expected, journal.toString());
         journal.removeEntry("Learn Clean Code");
         assertEquals("Learn to play Guitar", journal.toString());
+    }
+
+    @Test
+    public void shouldSaveEntryToFile() throws IOException {
+        journal.save("journal.text", "Learn to Code");
+    }
+
+    @Test
+    public void shouldSaveEntriesToFile() throws IOException {
+        journal.save("journal.text", List.of("Learn to Code", "Learn Guitar"));
+    }
+
+    @Test
+    public void shouldLoadEntries() throws IOException {
+        List<String> list = journal.load("journal.text");
+        System.out.println(list);
     }
 }
