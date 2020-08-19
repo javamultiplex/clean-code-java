@@ -1,7 +1,7 @@
 # SOLID Design Priciples in Java
 
-- Single Responsibility Principle
-- Open Close Principle
-- Liskove Substitution Principle
-- Interface Segregation Principle
-- Dependency Inversion Principle
+- Single Responsibility Principle (SRP)
+- Open Close Principle (OCP)
+- Liskove Substitution Principle (LSP)
+- Interface Segregation Principle (ISP)
+- Dependency Inversion Principle (DIP)
