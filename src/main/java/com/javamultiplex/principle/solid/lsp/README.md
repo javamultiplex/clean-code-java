@@ -1,3 +1,3 @@
-# Liskove Subsitution Principle
+# Liskove Subsitution Principle (LSP)
 
-Every derived/child class should be replacaple with base/parent class.
+Every derived/child class should be replaceable with base/parent class.
