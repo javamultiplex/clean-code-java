@@ -1,6 +1,5 @@
 package com.javamultiplex.principle.solid.srp.good;
 
-import com.javamultiplex.principle.solid.srp.good.JournalPersistence;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -18,12 +17,12 @@ public class JournalPersistenceTest {
 
     @BeforeEach
     void setUp() {
-        journalPersistence=new JournalPersistence();
+        journalPersistence = new JournalPersistence();
     }
 
     @Test
     public void shouldSaveEntryToFile() throws IOException {
-        journalPersistence.save("journal.text","Learn to Code");
+        journalPersistence.save("journal.text", "Learn to Code");
     }
 
     @Test
