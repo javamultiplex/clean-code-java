@@ -3,6 +3,7 @@ package com.javamultiplex.principle.solid.srp.good;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -31,7 +32,7 @@ public class JournalTest {
 
     @Test
     public void shouldAddEntries() {
-        List<String> entries = List.of("Learn Clean Code", "Learn to play Guitar");
+        List<String> entries = Arrays.asList("Learn Clean Code", "Learn to play Guitar");
         journal.addEntries(entries);
         String expected = "Learn Clean Code\n" +
                 "Learn to play Guitar";

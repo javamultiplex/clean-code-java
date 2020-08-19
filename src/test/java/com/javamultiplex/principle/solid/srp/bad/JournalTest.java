@@ -4,6 +4,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -32,7 +33,7 @@ public class JournalTest {
 
     @Test
     public void shouldAddEntries() {
-        List<String> entries = List.of("Learn Clean Code", "Learn to play Guitar");
+        List<String> entries = Arrays.asList("Learn Clean Code", "Learn to play Guitar");
         journal.addEntries(entries);
         String expected = "Learn Clean Code\n" +
                 "Learn to play Guitar";
@@ -57,7 +58,7 @@ public class JournalTest {
 
     @Test
     public void shouldSaveEntriesToFile() throws IOException {
-        journal.save("journal.text", List.of("Learn to Code", "Learn Guitar"));
+        journal.save("journal.text", Arrays.asList("Learn to Code", "Learn Guitar"));
     }
 
     @Test

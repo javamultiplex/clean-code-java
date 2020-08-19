@@ -6,6 +6,8 @@ import com.javamultiplex.principle.solid.ocp.Size;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -26,7 +28,7 @@ public class ProductFilterTest {
         Product apple = new Product("Apple", Color.GREEN, Size.SMALL);
         Product tree = new Product("Tree", Color.GREEN, Size.LARGE);
         Product house = new Product("House", Color.BLUE, Size.LARGE);
-        products = List.of(apple, tree, house);
+        products = Arrays.asList(apple, tree, house);
     }
 
     @Test
@@ -36,7 +38,7 @@ public class ProductFilterTest {
         assertEquals(2, productList.size());
         List<String> actual = productList.stream().map(Product::getName)
                 .collect(Collectors.toList());
-        assertEquals(List.of("Apple", "Tree"), actual);
+        assertEquals(Arrays.asList("Apple", "Tree"), actual);
     }
 
     @Test
@@ -46,7 +48,7 @@ public class ProductFilterTest {
         assertEquals(1, productList.size());
         List<String> actual = productList.stream().map(Product::getName)
                 .collect(Collectors.toList());
-        assertEquals(List.of("Apple"), actual);
+        assertEquals(Collections.singletonList("Apple"), actual);
     }
 
     @Test
@@ -56,7 +58,7 @@ public class ProductFilterTest {
         assertEquals(1, productList.size());
         List<String> actual = productList.stream().map(Product::getName)
                 .collect(Collectors.toList());
-        assertEquals(List.of("Tree"), actual);
+        assertEquals(Collections.singletonList("Tree"), actual);
     }
 
 }

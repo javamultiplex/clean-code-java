@@ -5,6 +5,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -27,7 +28,7 @@ public class JournalPersistenceTest {
 
     @Test
     public void shouldSaveEntriesToFile() throws IOException {
-        journalPersistence.save("journal.text", List.of("Learn to Code","Learn Guitar"));
+        journalPersistence.save("journal.text", Arrays.asList("Learn to Code", "Learn Guitar"));
     }
 
     @Test
