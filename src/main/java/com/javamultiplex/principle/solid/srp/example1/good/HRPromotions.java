@@ -6,7 +6,7 @@ package com.javamultiplex.principle.solid.srp.example1.good;
  */
 public class HRPromotions {
     public boolean isPromotionDueThisYear(Employee emp) {
-        //promotion logic implementation using the employee information passed
+        //TODO: promotion logic implementation using the employee information passed
         return false;
     }
 }

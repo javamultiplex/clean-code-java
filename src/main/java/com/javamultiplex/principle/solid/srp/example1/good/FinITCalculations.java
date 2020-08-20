@@ -6,7 +6,7 @@ package com.javamultiplex.principle.solid.srp.example1.good;
  */
 public class FinITCalculations {
     public Double calcIncomeTaxForCurrentYear(Employee emp) {
-        //income tax logic implementation using the employee information passed
+        //TODO: income tax logic implementation using the employee information passed
         return 0d;
     }
 }

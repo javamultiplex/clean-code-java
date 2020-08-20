@@ -13,12 +13,12 @@ public class Employee {
     private Date dateOfJoining;
 
     public boolean isPromotionDueThisYear() {
-        //promotion logic implementation
+        //TODO: promotion logic implementation
         return false;
     }
 
     public Double calcIncomeTaxForCurrentYear() {
-        //income tax logic implementation
+        //TODO: income tax logic implementation
         return 0d;
     }
 
