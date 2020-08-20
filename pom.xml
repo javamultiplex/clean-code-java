@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.javamultiplex</groupId>
-    <artifactId>design-patterns</artifactId>
+    <artifactId>clean-code</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
         <junit.jupiter.version>5.5.2</junit.jupiter.version>
