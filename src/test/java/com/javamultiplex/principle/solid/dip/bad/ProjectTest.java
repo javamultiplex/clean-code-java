@@ -12,13 +12,13 @@ public class ProjectTest {
 
     @BeforeEach
     void setUp() {
-        BackendDeveloper backendDeveloper=new BackendDeveloper();
-        FrontEndDeveloper frontEndDeveloper=new FrontEndDeveloper();
-        project=new Project(backendDeveloper, frontEndDeveloper);
+        BackendDeveloper backendDeveloper = new BackendDeveloper();
+        FrontEndDeveloper frontEndDeveloper = new FrontEndDeveloper();
+        project = new Project(backendDeveloper, frontEndDeveloper);
     }
 
     @Test
-    public void shouldImplement(){
+    public void shouldImplement() {
         project.implement();
     }
 }

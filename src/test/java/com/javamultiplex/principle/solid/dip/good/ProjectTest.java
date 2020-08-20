@@ -13,27 +13,27 @@ import java.util.List;
 public class ProjectTest {
 
     @Test
-    public void shouldImplementWithFrontEndDeveloper(){
-        Developer frontEndDeveloper=new FrontendDeveloper();
+    public void shouldImplementWithFrontEndDeveloper() {
+        Developer frontEndDeveloper = new FrontendDeveloper();
         List<Developer> developers = Collections.singletonList(frontEndDeveloper);
-        Project project=new Project(developers);
+        Project project = new Project(developers);
         project.implement();
     }
 
     @Test
-    public void shouldImplementWithBackEndDeveloper(){
-        Developer backendDeveloper=new BackendDeveloper();
+    public void shouldImplementWithBackEndDeveloper() {
+        Developer backendDeveloper = new BackendDeveloper();
         List<Developer> developers = Collections.singletonList(backendDeveloper);
-        Project project=new Project(developers);
+        Project project = new Project(developers);
         project.implement();
     }
 
     @Test
-    public void shouldImplementWithBackEndAndFrontEndDeveloper(){
-        Developer backendDeveloper=new BackendDeveloper();
-        Developer frontEndDeveloper=new FrontendDeveloper();
-        List<Developer> developers = Arrays.asList(backendDeveloper,frontEndDeveloper);
-        Project project=new Project(developers);
+    public void shouldImplementWithBackEndAndFrontEndDeveloper() {
+        Developer backendDeveloper = new BackendDeveloper();
+        Developer frontEndDeveloper = new FrontendDeveloper();
+        List<Developer> developers = Arrays.asList(backendDeveloper, frontEndDeveloper);
+        Project project = new Project(developers);
         project.implement();
     }
 

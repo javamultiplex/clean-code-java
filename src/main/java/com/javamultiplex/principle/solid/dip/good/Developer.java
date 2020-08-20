@@ -5,5 +5,5 @@ package com.javamultiplex.principle.solid.dip.good;
  * @copyright www.javamultiplex.com
  */
 public interface Developer {
-     void develop();
+    void develop();
 }

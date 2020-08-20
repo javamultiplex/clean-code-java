@@ -5,7 +5,7 @@ package com.javamultiplex.principle.solid.dip.bad;
  * @copyright www.javamultiplex.com
  */
 public class BackendDeveloper {
-    public void writeJava(){
+    public void writeJava() {
         System.out.println("I am writing JAVA code");
     }
 }

@@ -1,6 +1,5 @@
 package com.javamultiplex.principle.solid.srp.example2.bad;
 
-import com.javamultiplex.principle.solid.srp.example2.bad.Journal;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

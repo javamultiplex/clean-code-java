@@ -13,7 +13,7 @@ public class Project {
         this.frontEndDeveloper = frontEndDeveloper;
     }
 
-    public void implement(){
+    public void implement() {
         backendDeveloper.writeJava();
         frontEndDeveloper.writeJavascript();
     }

@@ -13,7 +13,7 @@ public class Project {
         this.developers = developers;
     }
 
-    public void implement(){
+    public void implement() {
         developers.forEach(Developer::develop);
     }
 }

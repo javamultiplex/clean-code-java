@@ -5,7 +5,7 @@ package com.javamultiplex.principle.solid.dip.bad;
  * @copyright www.javamultiplex.com
  */
 public class FrontEndDeveloper {
-    public void writeJavascript(){
+    public void writeJavascript() {
         System.out.println("I am write Javascript Code");
     }
 }
