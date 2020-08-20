@@ -1,5 +1,6 @@
-package com.javamultiplex.principle.solid.srp.good;
+package com.javamultiplex.principle.solid.srp.example2.good;
 
+import com.javamultiplex.principle.solid.srp.example2.good.JournalPersistence;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

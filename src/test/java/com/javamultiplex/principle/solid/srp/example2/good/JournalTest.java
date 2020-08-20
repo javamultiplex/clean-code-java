@@ -1,9 +1,9 @@
-package com.javamultiplex.principle.solid.srp.bad;
+package com.javamultiplex.principle.solid.srp.example2.good;
 
+import com.javamultiplex.principle.solid.srp.example2.good.Journal;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
@@ -26,8 +26,8 @@ public class JournalTest {
     public void shouldAddEntry() {
         journal.addEntry("Learn Clean Code");
         journal.addEntry("Learn to play Guitar");
-        String expected = "Learn Clean Code\n" +
-                "Learn to play Guitar";
+        String expected = "Learn Clean Code" + System.lineSeparator()
+                + "Learn to play Guitar";
         assertEquals(expected, journal.toString());
     }
 
@@ -35,8 +35,8 @@ public class JournalTest {
     public void shouldAddEntries() {
         List<String> entries = Arrays.asList("Learn Clean Code", "Learn to play Guitar");
         journal.addEntries(entries);
-        String expected = "Learn Clean Code\n" +
-                "Learn to play Guitar";
+        String expected = "Learn Clean Code" + System.lineSeparator()
+                +"Learn to play Guitar";
         assertEquals(expected, journal.toString());
     }
 
@@ -44,26 +44,10 @@ public class JournalTest {
     public void shouldRemoveEntry() {
         journal.addEntry("Learn Clean Code");
         journal.addEntry("Learn to play Guitar");
-        String expected = "Learn Clean Code\n" +
-                "Learn to play Guitar";
+        String expected = "Learn Clean Code" + System.lineSeparator()
+                +"Learn to play Guitar";
         assertEquals(expected, journal.toString());
         journal.removeEntry("Learn Clean Code");
         assertEquals("Learn to play Guitar", journal.toString());
-    }
-
-    @Test
-    public void shouldSaveEntryToFile() throws IOException {
-        journal.save("journal.text", "Learn to Code");
-    }
-
-    @Test
-    public void shouldSaveEntriesToFile() throws IOException {
-        journal.save("journal.text", Arrays.asList("Learn to Code", "Learn Guitar"));
-    }
-
-    @Test
-    public void shouldLoadEntries() throws IOException {
-        List<String> list = journal.load("journal.text");
-        System.out.println(list);
     }
 }

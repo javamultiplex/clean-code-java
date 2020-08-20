@@ -1,4 +1,4 @@
-package com.javamultiplex.principle.solid.srp.good;
+package com.javamultiplex.principle.solid.srp.example2.good;
 
 import java.io.File;
 import java.io.IOException;
