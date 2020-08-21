@@ -12,21 +12,21 @@ public class WebsiteTest {
 
     @BeforeEach
     void setUp() {
-        website=new Website();
+        website = new Website();
     }
 
     @Test
-    public void shouldPrintHomePage(){
+    public void shouldPrintHomePage() {
         website.homePage();
     }
 
     @Test
-    public void shouldPrintAboutPage(){
+    public void shouldPrintAboutPage() {
         website.aboutPage();
     }
 
     @Test
-    public void shouldPrintContactPage(){
+    public void shouldPrintContactPage() {
         website.contactPage();
     }
 }

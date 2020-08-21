@@ -5,7 +5,7 @@ package com.javamultiplex.principle.dry;
  * @copyright www.javamultiplex.com
  */
 public class Website {
-    public void homePage(){
+    public void homePage() {
         System.out.println("<div class='header'>");
         System.out.println("<a href='#'>Home</a>");
         System.out.println("<a href='#'>About</a>");
@@ -19,7 +19,7 @@ public class Website {
         System.out.println("</div>");
     }
 
-    public void aboutPage(){
+    public void aboutPage() {
         System.out.println("<div class='header'>");
         System.out.println("<a href='#'>Home</a>");
         System.out.println("<a href='#'>About</a>");
@@ -33,7 +33,7 @@ public class Website {
         System.out.println("</div>");
     }
 
-    public void contactPage(){
+    public void contactPage() {
         System.out.println("<div class='header'>");
         System.out.println("<a href='#'>Home</a>");
         System.out.println("<a href='#'>About</a>");

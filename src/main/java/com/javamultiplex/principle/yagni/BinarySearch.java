@@ -12,7 +12,7 @@ public class BinarySearch {
         this.sortAlgorithm = sortAlgorithm;
     }
 
-    public int search(int[] numbers, int numberToSearch){
+    public int search(int[] numbers, int numberToSearch) {
         int[] sortedArray = sortAlgorithm.sort(numbers);
         //TODO: Binary Search Implementation
         return -1;
