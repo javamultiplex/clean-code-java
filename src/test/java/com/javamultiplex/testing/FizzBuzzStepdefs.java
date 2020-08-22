@@ -1,4 +1,4 @@
-package com.javamultiplex.bdd;
+package com.javamultiplex.testing;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

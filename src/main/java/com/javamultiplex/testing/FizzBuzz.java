@@ -1,4 +1,4 @@
-package com.javamultiplex.bdd;
+package com.javamultiplex.testing;
 
 /**
  * @author Rohit Agarwal on 22/08/20 4:56 pm
