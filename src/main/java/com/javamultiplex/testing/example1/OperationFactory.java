@@ -1,4 +1,4 @@
-package com.javamultiplex.testing;
+package com.javamultiplex.testing.example1;
 
 /**
  * @author Rohit Agarwal on 22/08/20 8:26 pm

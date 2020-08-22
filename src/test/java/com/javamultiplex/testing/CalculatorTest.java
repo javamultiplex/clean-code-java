@@ -1,5 +1,7 @@
 package com.javamultiplex.testing;
 
+import com.javamultiplex.testing.example1.Calculator;
+import com.javamultiplex.testing.example1.Operator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

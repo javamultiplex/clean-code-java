@@ -1,5 +1,6 @@
 package com.javamultiplex.testing;
 
+import com.javamultiplex.testing.example2.FizzBuzz;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
