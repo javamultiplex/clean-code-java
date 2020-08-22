@@ -1,2 +1,10 @@
-# clean-code
-Clean code principles and design patterns
+# Clean code principles
+
+- SOLID
+- KISS
+- DRY
+- YAGNI
+- Delegation
+- Encapsulate What Changes
+
+
