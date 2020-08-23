@@ -7,4 +7,8 @@
 - Delegation
 - Encapsulate What Changes
 
+# Design Patterns
 
+ - Creational
+ - Structural
+ - Behavioral
