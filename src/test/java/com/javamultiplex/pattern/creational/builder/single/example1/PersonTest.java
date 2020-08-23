@@ -1,6 +1,7 @@
-package com.javamultiplex.pattern.creational.builder.single;
+package com.javamultiplex.pattern.creational.builder.single.example1;
 
-import com.javamultiplex.pattern.creational.builder.single.Person.PersonBuilder;
+import com.javamultiplex.pattern.creational.builder.single.example1.Person;
+import com.javamultiplex.pattern.creational.builder.single.example1.Person.PersonBuilder;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

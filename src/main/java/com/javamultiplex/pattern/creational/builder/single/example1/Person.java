@@ -1,4 +1,4 @@
-package com.javamultiplex.pattern.creational.builder.single;
+package com.javamultiplex.pattern.creational.builder.single.example1;
 
 /**
  * @author Rohit Agarwal on 23/08/20 7:16 pm
