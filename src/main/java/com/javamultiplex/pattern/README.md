@@ -17,3 +17,13 @@
 - Facade
 
 ## Behavioral
+- Chain of Responsibility
+- Iterator
+- Command
+- Mediator
+- Memento
+- Observer
+- State
+- Strategy
+- Template Method
+- Visitor
