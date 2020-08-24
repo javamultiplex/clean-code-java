@@ -1,5 +1,6 @@
-package com.javamultiplex.pattern.creational.factory;
+package com.javamultiplex.pattern.creational.factory.example1;
 
+import com.javamultiplex.pattern.creational.factory.example1.Point;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

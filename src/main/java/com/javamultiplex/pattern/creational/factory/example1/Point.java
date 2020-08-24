@@ -1,4 +1,4 @@
-package com.javamultiplex.pattern.creational.factory;
+package com.javamultiplex.pattern.creational.factory.example1;
 
 /**
  * @author Rohit Agarwal on 24/08/20 11:40 pm
