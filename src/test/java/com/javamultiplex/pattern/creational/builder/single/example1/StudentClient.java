@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * @author Rohit Agarwal on 23/08/20 7:53 pm
  * @copyright www.javamultiplex.com
  */
-public class StudentTest {
+public class StudentClient {
 
     @Test
     public void shouldCreateStudentObject() {

@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * @author Rohit Agarwal on 23/08/20 7:24 pm
  * @copyright www.javamultiplex.com
  */
-public class PersonTest {
+public class PersonClient {
 
     @Test
     public void shouldCreatePersonObjectWithAllAttributes() {

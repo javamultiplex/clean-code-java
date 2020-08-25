@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
  * @author Rohit Agarwal on 24/08/20 11:46 pm
  * @copyright www.javamultiplex.com
  */
-public class PointTest {
+public class PointClient {
 
     @Test
     public void shouldCreateCartesianPoint() {

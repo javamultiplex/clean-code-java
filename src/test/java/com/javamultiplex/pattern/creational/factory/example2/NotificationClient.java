@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
  * @author Rohit Agarwal on 25/08/20 12:24 am
  * @copyright www.javamultiplex.com
  */
-public class NotificationFactoryTest {
+public class NotificationClient {
 
     @Test
     public void shouldCreatePushNotification() {

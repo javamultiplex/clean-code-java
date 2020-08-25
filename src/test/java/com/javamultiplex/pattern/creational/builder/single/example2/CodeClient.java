@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
  * @author Rohit Agarwal on 23/08/20 11:08 pm
  * @copyright www.javamultiplex.com
  */
-public class CodeTest {
+public class CodeClient {
     @Test
     public void shouldBuildCode() {
         CodeBuilder codeBuilder = new CodeBuilder("Person");
