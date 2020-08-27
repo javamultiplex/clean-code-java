@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
  * @copyright www.javamultiplex.com
  */
 public class Client {
-    
+
     @Test
     public void shouldCreateRedColorObject() {
         AbstractFactory abstractFactory = FactoryProvider.getFactory("color");

@@ -36,7 +36,7 @@ public class Code {
                 .append("{")
                 .append(newLine);
         list.forEach(sb::append);
-                sb.append("}");
+        sb.append("}");
         return sb.toString();
     }
 }

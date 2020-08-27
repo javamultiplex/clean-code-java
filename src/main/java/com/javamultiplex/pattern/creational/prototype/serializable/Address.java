@@ -1,11 +1,17 @@
-package com.javamultiplex.pattern.creational.prototype.cloneable;
+package com.javamultiplex.pattern.creational.prototype.serializable;
+
+import java.io.Serializable;
 
 /**
- * @author Rohit Agarwal on 25/08/20 11:32 pm
+ * @author Rohit Agarwal on 25/08/20 11:52 pm
  * @copyright www.javamultiplex.com
  */
-public class Address implements Cloneable {
+public class Address implements Serializable {
+
+    private static final long serialVersionUID = -2829875557446226033L;
+
     private String streetAddress;
+
     private int houseNumber;
 
     public Address(String streetAddress, int houseNumber) {
@@ -30,15 +36,10 @@ public class Address implements Cloneable {
     }
 
     @Override
-    protected Object clone() throws CloneNotSupportedException {
-        return new Address(streetAddress, houseNumber);
-    }
-
-    @Override
     public String toString() {
         return "Address{" +
                 "streetAddress='" + streetAddress + '\'' +
-                ", houseNumber=" + houseNumber +
+                ", houseNumber='" + houseNumber + '\'' +
                 '}';
     }
 }

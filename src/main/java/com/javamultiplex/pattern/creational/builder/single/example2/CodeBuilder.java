@@ -7,7 +7,7 @@ package com.javamultiplex.pattern.creational.builder.single.example2;
 public class CodeBuilder {
     private Code code = new Code();
 
-    public CodeBuilder(String className){
+    public CodeBuilder(String className) {
         code.setClassName(className);
     }
 
@@ -16,7 +16,7 @@ public class CodeBuilder {
         return this;
     }
 
-    public Code build(){
+    public Code build() {
         return code;
     }
 }

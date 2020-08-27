@@ -55,12 +55,12 @@ public class Person {
             return self();
         }
 
-        public Person build(){
+        public Person build() {
             return new Person(this);
         }
 
-        public SELF self(){
-            return (SELF)this;
+        public SELF self() {
+            return (SELF) this;
         }
     }
 

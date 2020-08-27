@@ -14,11 +14,11 @@ public class CodeClient {
         Code code = codeBuilder.addField("name", "String")
                 .addField("age", "int")
                 .build();
-        String expected = "public class Person" + System.lineSeparator()+
-        "{" + System.lineSeparator() +
+        String expected = "public class Person" + System.lineSeparator() +
+                "{" + System.lineSeparator() +
                 "  public String name;" + System.lineSeparator() +
                 "  public int age;" + System.lineSeparator() +
                 "}";
-        Assertions.assertEquals(expected,code.toString());
+        Assertions.assertEquals(expected, code.toString());
     }
 }

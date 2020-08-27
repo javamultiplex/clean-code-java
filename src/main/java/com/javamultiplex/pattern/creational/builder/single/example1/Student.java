@@ -28,7 +28,7 @@ public class Student extends Person {
 
         public StudentBuilder(String firstName, String lastName, String degree) {
             super(firstName, lastName);
-            this.degree=degree;
+            this.degree = degree;
         }
 
         public StudentBuilder withHobby(String hobby) {

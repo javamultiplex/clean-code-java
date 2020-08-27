@@ -14,41 +14,41 @@ public class Example3Test {
 
     @BeforeEach
     void setUp() {
-        example3=new Example3();
+        example3 = new Example3();
     }
 
     @Test
-    public void shouldReturnTrueForMethod1(){
+    public void shouldReturnTrueForMethod1() {
         boolean result = example3.isNumber1("1234");
         Assertions.assertTrue(result);
     }
 
     @Test
-    public void shouldReturnFalseForMethod1(){
+    public void shouldReturnFalseForMethod1() {
         boolean result = example3.isNumber1("1acf4");
         Assertions.assertFalse(result);
     }
 
     @Test
-    public void shouldReturnTrueForMethod2(){
+    public void shouldReturnTrueForMethod2() {
         boolean result = example3.isNumber2("1234");
         Assertions.assertTrue(result);
     }
 
     @Test
-    public void shouldReturnFalseForMethod2(){
+    public void shouldReturnFalseForMethod2() {
         boolean result = example3.isNumber2("1acf4");
         Assertions.assertFalse(result);
     }
 
     @Test
-    public void shouldReturnTrueForMethod3(){
+    public void shouldReturnTrueForMethod3() {
         boolean result = example3.isNumber3("1234");
         Assertions.assertTrue(result);
     }
 
     @Test
-    public void shouldReturnFalseForMethod3(){
+    public void shouldReturnFalseForMethod3() {
         boolean result = example3.isNumber3("1acf4");
         Assertions.assertFalse(result);
     }

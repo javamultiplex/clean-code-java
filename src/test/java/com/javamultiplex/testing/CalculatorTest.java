@@ -20,7 +20,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void shouldPerformAddition(){
+    public void shouldPerformAddition() {
         int result = calculator.calculate(Operator.ADD, 12, 2);
         Assertions.assertEquals(14, result);
     }

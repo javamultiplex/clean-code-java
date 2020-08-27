@@ -21,17 +21,17 @@ public class Example3 {
     }
 
     public boolean isNumber2(final String input) {
-        boolean result=true;
+        boolean result = true;
         try {
             Integer.parseInt(input);
-        }catch (NumberFormatException exception){
-            System.out.format("Input %s is not a number",input);
-            result=false;
+        } catch (NumberFormatException exception) {
+            System.out.format("Input %s is not a number", input);
+            result = false;
         }
         return result;
     }
 
-    public boolean isNumber3(final String input){
+    public boolean isNumber3(final String input) {
         return input.matches("^\\d+$");
     }
 }

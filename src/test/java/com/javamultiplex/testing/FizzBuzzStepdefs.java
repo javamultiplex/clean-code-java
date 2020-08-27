@@ -13,9 +13,10 @@ import org.junit.jupiter.api.Assertions;
 public class FizzBuzzStepdefs {
     private FizzBuzz fizzBuzz;
     private String result;
+
     @Given("Create a FizzBuzz Game Play")
     public void createAFizzBuzzGamePlay() {
-        fizzBuzz=new FizzBuzz();
+        fizzBuzz = new FizzBuzz();
     }
 
     @When("I play with number {int}")
@@ -25,6 +26,6 @@ public class FizzBuzzStepdefs {
 
     @Then("The result is {string}")
     public void theResultIs(String resultString) {
-        Assertions.assertEquals(resultString,result);
+        Assertions.assertEquals(resultString, result);
     }
 }

@@ -7,7 +7,7 @@ package com.javamultiplex.testing.example1;
 public class Calculator {
 
     public int calculate(final Operator operator, final int number1, final int number2) {
-        return OperationFactory.getInstance(operator).operate(number1,number2);
+        return OperationFactory.getInstance(operator).operate(number1, number2);
     }
 
 }

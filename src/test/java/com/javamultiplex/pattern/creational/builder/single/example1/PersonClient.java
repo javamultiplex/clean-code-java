@@ -1,6 +1,5 @@
 package com.javamultiplex.pattern.creational.builder.single.example1;
 
-import com.javamultiplex.pattern.creational.builder.single.example1.Person;
 import com.javamultiplex.pattern.creational.builder.single.example1.Person.PersonBuilder;
 import org.junit.jupiter.api.Test;
 

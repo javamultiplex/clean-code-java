@@ -1,6 +1,5 @@
 package com.javamultiplex.pattern.creational.builder.single.example1;
 
-import com.javamultiplex.pattern.creational.builder.single.example1.Student;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
