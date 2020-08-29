@@ -1,5 +1,6 @@
 package com.javamultiplex.pattern.creational.prototype.serializable;
 
+import com.javamultiplex.util.SerializationUtil;
 import org.junit.jupiter.api.Test;
 
 import java.io.*;
@@ -20,12 +21,8 @@ public class PersonClient {
              ObjectOutputStream objectOutputStream = new ObjectOutputStream(outputStream)) {
             objectOutputStream.writeObject(rohit);
         }
-
-        Person bhavna;
-        try (InputStream inputStream = new FileInputStream(new File("person.ser"));
-             ObjectInputStream objectInputStream = new ObjectInputStream(inputStream)) {
-            bhavna = (Person) objectInputStream.readObject();
-        }
+        SerializationUtil.serialize(rohit, "person.ser");
+        Person bhavna = (Person) SerializationUtil.deserialize("person.ser");
         bhavna.getAddress().setHouseNumber(15);
         String[] names = bhavna.getNames();
         names[0] = "bhavna";
