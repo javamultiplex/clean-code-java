@@ -9,7 +9,7 @@ import java.io.Serializable;
 public class BasicSingleton implements Serializable {
 
     private static final long serialVersionUID = 1417853001742788063L;
-    public static BasicSingleton INSTANCE = new BasicSingleton();
+    private static final BasicSingleton INSTANCE = new BasicSingleton();
     private int value;
 
     private BasicSingleton() { }
