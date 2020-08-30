@@ -16,8 +16,8 @@ public class EnumBasedSingletonClient {
         EnumBasedSingleton enumBasedSingleton = EnumBasedSingleton.INSTANCE;
         enumBasedSingleton.setValue(13);
         System.out.println(enumBasedSingleton.name());
-        SerializationUtil.serialize(enumBasedSingleton,"enum-singleton.ser");
-        EnumBasedSingleton another = (EnumBasedSingleton)SerializationUtil.deserialize("enum-singleton.ser");
+        SerializationUtil.serialize(enumBasedSingleton, "enum-singleton.ser");
+        EnumBasedSingleton another = (EnumBasedSingleton) SerializationUtil.deserialize("enum-singleton.ser");
         System.out.println(another.getValue());
     }
 }

@@ -1,7 +1,6 @@
 package com.javamultiplex.pattern.creational.singleton;
 
 import com.javamultiplex.util.SerializationUtil;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;

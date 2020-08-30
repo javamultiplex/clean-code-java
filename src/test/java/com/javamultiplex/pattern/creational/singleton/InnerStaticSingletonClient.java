@@ -11,13 +11,13 @@ import java.util.concurrent.Executors;
  */
 public class InnerStaticSingletonClient {
     @Test
-    public void shouldNotCreateTwoInstances(){
+    public void shouldNotCreateTwoInstances() {
         ExecutorService executorService = Executors.newFixedThreadPool(2);
-        executorService.execute(()->{
+        executorService.execute(() -> {
             InnerStaticSingleton innerStaticSingleton = InnerStaticSingleton.getInstance();
             System.out.println(innerStaticSingleton);
         });
-        executorService.execute(()->{
+        executorService.execute(() -> {
             InnerStaticSingleton innerStaticSingleton = InnerStaticSingleton.getInstance();
             System.out.println(innerStaticSingleton);
         });

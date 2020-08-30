@@ -12,7 +12,12 @@ public class BasicSingleton implements Serializable {
     private static final BasicSingleton INSTANCE = new BasicSingleton();
     private int value;
 
-    private BasicSingleton() { }
+    private BasicSingleton() {
+    }
+
+    public static BasicSingleton getInstance() {
+        return INSTANCE;
+    }
 
     public int getValue() {
         return value;
@@ -22,11 +27,7 @@ public class BasicSingleton implements Serializable {
         this.value = value;
     }
 
-    public static BasicSingleton getInstance() {
-        return INSTANCE;
-    }
-
-    public Object readResolve(){
+    public Object readResolve() {
         return INSTANCE;
     }
 }

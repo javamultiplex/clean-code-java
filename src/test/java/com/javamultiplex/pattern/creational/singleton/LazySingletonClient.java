@@ -14,11 +14,11 @@ public class LazySingletonClient {
     @Test
     public void shouldCreateTwoInstance() {
         ExecutorService executorService = Executors.newFixedThreadPool(2);
-        executorService.execute(()->{
+        executorService.execute(() -> {
             LazySingleton lazySingleton = LazySingleton.getInstance1();
             System.out.println(lazySingleton);
         });
-        executorService.execute(()->{
+        executorService.execute(() -> {
             LazySingleton lazySingleton = LazySingleton.getInstance1();
             System.out.println(lazySingleton);
         });
@@ -27,11 +27,11 @@ public class LazySingletonClient {
     @Test
     public void shouldNotCreateTwoInstanceUsingSynchronizedMethod() {
         ExecutorService executorService = Executors.newFixedThreadPool(2);
-        executorService.execute(()->{
+        executorService.execute(() -> {
             LazySingleton lazySingleton = LazySingleton.getInstance2();
             System.out.println(lazySingleton);
         });
-        executorService.execute(()->{
+        executorService.execute(() -> {
             LazySingleton lazySingleton = LazySingleton.getInstance2();
             System.out.println(lazySingleton);
         });
@@ -40,11 +40,11 @@ public class LazySingletonClient {
     @Test
     public void shouldNotCreateTwoInstanceUsingDoubleLocking() {
         ExecutorService executorService = Executors.newFixedThreadPool(2);
-        executorService.execute(()->{
+        executorService.execute(() -> {
             LazySingleton lazySingleton = LazySingleton.getInstance3();
             System.out.println(lazySingleton);
         });
-        executorService.execute(()->{
+        executorService.execute(() -> {
             LazySingleton lazySingleton = LazySingleton.getInstance3();
             System.out.println(lazySingleton);
         });

@@ -10,21 +10,21 @@ import org.junit.jupiter.api.Test;
 public class VoltClient {
 
     @Test
-    public void shouldGet3VoltSupply(){
-        SocketAdapter socketAdapter=new SocketObjectAdapterImpl();
+    public void shouldGet3VoltSupply() {
+        SocketAdapter socketAdapter = new SocketObjectAdapterImpl();
         Assertions.assertEquals(3, socketAdapter.get3Volt().getVolts());
     }
 
     @Test
-    public void shouldGet12VoltSupply(){
-        SocketAdapter socketAdapter=new SocketObjectAdapterImpl();
+    public void shouldGet12VoltSupply() {
+        SocketAdapter socketAdapter = new SocketObjectAdapterImpl();
         Assertions.assertEquals(12, socketAdapter.get12Volt().getVolts());
     }
 
 
     @Test
-    public void shouldGet120VoltSupply(){
-        SocketAdapter socketAdapter=new SocketObjectAdapterImpl();
+    public void shouldGet120VoltSupply() {
+        SocketAdapter socketAdapter = new SocketObjectAdapterImpl();
         Assertions.assertEquals(120, socketAdapter.get120Volt().getVolts());
     }
 }
