@@ -1,4 +1,4 @@
-package com.javamultiplex.testing.principles;
+package com.javamultiplex.testing.principles.example1;
 
 /**
  * @author Rohit Agarwal on 04/09/20 10:08 pm

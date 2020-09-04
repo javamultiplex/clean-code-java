@@ -1,4 +1,4 @@
-package com.javamultiplex.testing.principles;
+package com.javamultiplex.testing.principles.example1;
 
 import java.util.List;
 

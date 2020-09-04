@@ -1,5 +1,8 @@
-package com.javamultiplex.testing.principles;
+package com.javamultiplex.testing.principles.example1;
 
+import com.javamultiplex.testing.principles.example1.Adder;
+import com.javamultiplex.testing.principles.example1.Calculator;
+import com.javamultiplex.testing.principles.example1.Multiplier;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

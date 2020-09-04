@@ -1,6 +1,5 @@
-package com.javamultiplex.testing;
+package com.javamultiplex.testing.tddbdd.example2;
 
-import com.javamultiplex.testing.example2.FizzBuzz;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

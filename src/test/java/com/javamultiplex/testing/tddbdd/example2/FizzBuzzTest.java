@@ -1,6 +1,5 @@
-package com.javamultiplex.testing;
+package com.javamultiplex.testing.tddbdd.example2;
 
-import com.javamultiplex.testing.example2.FizzBuzz;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

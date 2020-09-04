@@ -1,7 +1,5 @@
-package com.javamultiplex.testing;
+package com.javamultiplex.testing.tddbdd.example1;
 
-import com.javamultiplex.testing.example1.Calculator;
-import com.javamultiplex.testing.example1.Operator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

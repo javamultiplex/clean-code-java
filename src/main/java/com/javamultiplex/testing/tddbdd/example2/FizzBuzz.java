@@ -1,4 +1,4 @@
-package com.javamultiplex.testing.example2;
+package com.javamultiplex.testing.tddbdd.example2;
 
 /**
  * @author Rohit Agarwal on 22/08/20 4:56 pm

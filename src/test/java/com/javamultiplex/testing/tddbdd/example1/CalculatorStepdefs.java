@@ -1,7 +1,5 @@
-package com.javamultiplex.testing;
+package com.javamultiplex.testing.tddbdd.example1;
 
-import com.javamultiplex.testing.example1.Calculator;
-import com.javamultiplex.testing.example1.Operator;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
