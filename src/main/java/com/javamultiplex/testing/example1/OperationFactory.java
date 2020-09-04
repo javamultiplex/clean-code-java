@@ -14,9 +14,6 @@ public final class OperationFactory {
             case SUB:
                 operation = new Subtraction();
                 break;
-            case MUL:
-                operation = new Multiplication();
-                break;
             default:
                 throw new UnsupportedOperationException(operator + " not supported");
         }

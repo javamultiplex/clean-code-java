@@ -9,8 +9,3 @@ Feature: Create Calculator that perform Addition, Subtraction, Division and Mult
     Given You have a calculator
     When Operator is "SUB", first number is 6 and second number is 4
     Then The result is 2
-
-  Scenario: Perform Multiplication of two numbers
-    Given You have a calculator
-    When Operator is "MUL", first number is 7 and second number is 4
-    Then The result is 28

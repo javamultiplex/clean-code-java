@@ -24,4 +24,10 @@ public class CalculatorTest {
         int result = calculator.calculate(Operator.ADD, 12, 2);
         Assertions.assertEquals(14, result);
     }
+
+    @Test
+    public void shouldPerformSubtraction() {
+        int result = calculator.calculate(Operator.SUB, 12, 2);
+        Assertions.assertEquals(10, result);
+    }
 }
