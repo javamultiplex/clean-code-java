@@ -1,9 +1,11 @@
 package com.javamultiplex.testing.principles.example2;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -14,7 +16,6 @@ import java.util.stream.Collectors;
 public class FileService {
 
     /**
-     *
      * @param directory
      * @param fileName
      * @param bytes
@@ -26,7 +27,7 @@ public class FileService {
         if (!Files.exists(path)) {
             createDirectory(directory);
         }
-        return Files.write(Paths.get(directory+fileName), bytes);
+        return Files.write(Paths.get(directory + fileName), bytes);
     }
 
     /**
@@ -41,7 +42,25 @@ public class FileService {
                 .collect(Collectors.toList());
     }
 
+
+    /**
+     * @param directory
+     * @throws IOException
+     */
     public void createDirectory(String directory) throws IOException {
         Files.createDirectory(Paths.get(directory));
     }
+
+
+    /**
+     * @param directory
+     * @throws IOException
+     */
+    public void cleanDirectory(String directory) throws IOException {
+        Files.walk(Paths.get(directory))
+                .sorted(Comparator.reverseOrder())
+                .map(Path::toFile)
+                .forEach(File::delete);
+    }
+
 }
