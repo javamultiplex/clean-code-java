@@ -8,6 +8,7 @@ import java.nio.file.Paths;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * @author Rohit Agarwal on 05/09/20 7:36 pm
@@ -36,10 +37,13 @@ public class FileService {
      * @throws IOException
      */
     public List<Path> list(final String directory) throws IOException {
-        return Files
-                .list(Paths.get(directory))
-                .filter(Files::isRegularFile)
-                .collect(Collectors.toList());
+        try (Stream<Path> stream = Files
+                .list(Paths.get(directory))) {
+            return stream
+                    .filter(Files::isRegularFile)
+                    .collect(Collectors.toList());
+        }
+
     }
 
 
@@ -48,7 +52,7 @@ public class FileService {
      * @throws IOException
      */
     public void createDirectory(String directory) throws IOException {
-        Files.createDirectory(Paths.get(directory));
+        Files.createDirectories(Paths.get(directory));
     }
 
 
@@ -57,10 +61,12 @@ public class FileService {
      * @throws IOException
      */
     public void cleanDirectory(String directory) throws IOException {
-        Files.walk(Paths.get(directory))
-                .sorted(Comparator.reverseOrder())
-                .map(Path::toFile)
-                .forEach(File::delete);
+        try (Stream<Path> stream = Files.walk(Paths.get(directory))) {
+            stream
+                    .sorted(Comparator.reverseOrder())
+                    .map(Path::toFile)
+                    .forEach(File::delete);
+        }
     }
 
 }
