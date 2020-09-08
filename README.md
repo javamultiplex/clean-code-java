@@ -30,11 +30,11 @@
 - **Factory method** - Creates a factory of object types. Ex - Shape factory that generates different shapes.
 
 ## Structural Patterns
-- Proxy - An object representing another object. Ex - Credit card, Debit card
-- Decorator - Add responsibilities to the object dynamically. Ex - Adding discount on order, Adding toppings on pizza, Java IO.
-- Facade - A single class that represent an entire subsystem. Ex - Event manager, Online booking order.
-- Adapter - Match interfaces of different class. Ex - Power adapter.
-- Flyweight - A fine grained instance used for efficient sharing. Ex - Public switched network, JDBC Connection pooling.
+- **Proxy** - An object representing another object. Ex - Credit card, Debit card
+- **Decorator** - Add responsibilities to the object dynamically. Ex - Adding discount on order, Adding toppings on pizza, Java IO.
+- **Facade** - A single class that represent an entire subsystem. Ex - Event manager, Online booking order.
+- **Adapter** - Match interfaces of different class. Ex - Power adapter.
+- **Flyweight** - A fine grained instance used for efficient sharing. Ex - Public switched network, JDBC Connection pooling.
 
 ## Behavioural
 - Chain of resposibility - A way of passing a request between chain of objects. Ex - Exception handling in Java.
