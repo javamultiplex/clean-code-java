@@ -23,11 +23,11 @@
 6. Don’t write test cases of entity class and DTO
 7. Don’t write test for coverage, cover all scenarios
 
-# Creational Patterns
-- Prototype - A fully initialized instance to be copied or cloned. Ex - Chess board.
-- Builder - Seperate object construction from its representation. Ex - Menu of any restaurant
-- Singleton - A class of which only a single instance can exist. Ex - President of country, Database connection, Logging
-- Factory method - Creates a factory of object types. Ex - Shape factory that generates different shapes.
+## Creational Patterns
+- **Prototype** - A fully initialized instance to be copied or cloned. Ex - Chess board.
+- **Builder** - Seperate object construction from its representation. Ex - Menu of any restaurant
+- **Singleton** - A class of which only a single instance can exist. Ex - President of country, Database connection, Logging
+- **Factory method** - Creates a factory of object types. Ex - Shape factory that generates different shapes.
 
 ## Structural Patterns
 - Proxy - An object representing another object. Ex - Credit card, Debit card
