@@ -37,13 +37,13 @@
 - **Flyweight** - A fine grained instance used for efficient sharing. Ex - Public switched network, JDBC Connection pooling.
 
 ## Behavioural
-- Chain of resposibility - A way of passing a request between chain of objects. Ex - Exception handling in Java.
-- Iterator - Sequentially access elements of a collection. Ex - Iterator class, next and prev button on Tv remote.
-- State - Alter an object behaviour when its state changes. Ex - Fan wall control
-- Strategy - Encapsulate an algorithm inside a class. Ex - Sorting based on different algorithms.
-- Observer - A way of notifying a change to number of classes. Ex - Newspaper
-- Visitor - Define a new operation to a class without change. Ex - Operation of a taxi company.
-- Template method - Defer an exact steps of an algorithm to a sub class. Ex - House plan.
-- Command - Encapsulate a command request as a object. Ex - Runnable interface, Waiter take order and pass it to cook.
-- Memento - Capture and restore object's internal state. Ex - Serialization, Undo/Redo.
-- Mediator - Defines simplified communication between classes. Ex - Air traffic controller.
+- **Chain of resposibility** - A way of passing a request between chain of objects. Ex - Exception handling in Java.
+- **Iterator** - Sequentially access elements of a collection. Ex - Iterator class, next and prev button on Tv remote.
+- **State** - Alter an object behaviour when its state changes. Ex - Fan wall control
+- **Strategy** - Encapsulate an algorithm inside a class. Ex - Sorting based on different algorithms.
+- **Observer** - A way of notifying a change to number of classes. Ex - Newspaper
+- **Visitor** - Define a new operation to a class without change. Ex - Operation of a taxi company.
+- **Template method** - Defer an exact steps of an algorithm to a sub class. Ex - House plan.
+- **Command** - Encapsulate a command request as a object. Ex - Runnable interface, Waiter take order and pass it to cook.
+- **Memento** - Capture and restore object's internal state. Ex - Serialization, Undo/Redo.
+- **Mediator** - Defines simplified communication between classes. Ex - Air traffic controller.
