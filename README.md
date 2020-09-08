@@ -27,7 +27,7 @@
 - **Adapter** - Match interfaces of different class. Ex - Power adapter.
 - **Flyweight** - A fine grained instance used for efficient sharing. Ex - Public switched network, JDBC Connection pooling.
 
-3. ## Behavioural
+3. ## Behavioural Patterns
 - **Chain of resposibility** - A way of passing a request between chain of objects. Ex - Exception handling in Java.
 - **Iterator** - Sequentially access elements of a collection. Ex - Iterator class, next and prev button on Tv remote.
 - **State** - Alter an object behaviour when its state changes. Ex - Fan wall control
