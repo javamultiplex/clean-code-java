@@ -6,6 +6,4 @@ Mediator design pattern is one of the important and widely used behavioral desig
 Air traffic controller is a great example of mediator pattern where the airport control room works as a mediator for communication between different flights. Mediator works as a router between objects and it can have it’s own logic to provide way of communication.
 
 ## UML Diagram
-<center>
 ![Mediator Pattern UML Diagram](https://github.com/javamultiplex/clean-code-principles-and-patterns/blob/master/src/main/java/com/javamultiplex/pattern/behavioral/uml/Mediator_Design_Pattern_UML.jpg)
-  </center>
