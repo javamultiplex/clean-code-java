@@ -21,6 +21,10 @@ public class Subject {
         observers.add(observer);
     }
 
+    public void detach(Observer observer) {
+        observers.remove(observer);
+    }
+
     public void notifyAllObservers() {
         for (Observer observer : observers) {
             observer.update();

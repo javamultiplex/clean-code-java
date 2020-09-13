@@ -12,7 +12,7 @@ public class NumberSystemClient {
     public void shouldNotifyObservers() {
         Subject subject = new Subject();
 
-        new HexaObserver(subject);
+        HexaObserver hexaObserver = new HexaObserver(subject);
         new OctalObserver(subject);
         new BinaryObserver(subject);
 
@@ -20,5 +20,10 @@ public class NumberSystemClient {
         subject.setState(15);
         System.out.println("Second state change: 10");
         subject.setState(10);
+
+        subject.detach(hexaObserver);
+        System.out.println("Third state change: 15");
+        subject.setState(5);
+
     }
 }
