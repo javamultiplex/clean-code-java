@@ -6,3 +6,6 @@
 #### Examples 
 - JMS (Java Messaging Service)
 - MVC Framework (Model is subject and views are observers)
+
+## UML Diagram
+![Observer Pattern UML Diagram](https://github.com/javamultiplex/clean-code-principles-and-patterns/blob/master/src/main/java/com/javamultiplex/pattern/behavioral/uml/Observer_Design_Pattern_UML.jpg)
