@@ -8,3 +8,7 @@ We can break the pattern down into:
 - leaf – implements the default behavior of the base component. It doesn't contain a reference to the other objects.
 - composite – has leaf elements. It implements the base component methods and defines the child-related operations.
 - client – has access to the composition elements by using the base component object.
+
+## UML Diagram
+
+![Composite pattern UML diagram](https://github.com/javamultiplex/clean-code-principles-and-patterns/blob/master/src/main/java/com/javamultiplex/pattern/structural/uml/Composite_Design_Pattern_UML.jpg)
