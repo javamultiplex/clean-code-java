@@ -12,3 +12,6 @@ Now we add to more attributes to the Character class, they are row and column. T
 
 - Data Compression
 - Date Caching
+
+## UML Diagram
+![Flyweight pattern UML diagram](https://github.com/javamultiplex/clean-code-principles-and-patterns/blob/master/src/main/java/com/javamultiplex/pattern/structural/uml/Flyweight_Design_Pattern_UML.jpg)
