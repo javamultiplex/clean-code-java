@@ -13,3 +13,6 @@ Separate the construction of an object from its representation.
 - java.lang.StringBuffer#append() (synchronized)
 - java.nio.ByteBuffer#put() (also in CharBuffer, ShortBuffer, IntBuffer, LongBuffer, FloatBuffer and DoubleBuffer)
 - javax.swing.GroupLayout.Group#addComponent()
+
+## UML Diagram
+![Builder pattern UML diagram](https://github.com/javamultiplex/clean-code-principles-and-patterns/blob/master/src/main/java/com/javamultiplex/pattern/creational/uml/Builder_Design_Pattern_UML.jpg)
