@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!-- Converted with SVG Converter - Version 0.9.6 (Compiled Thu Aug 31 10:01:05 2017) - Copyright (C) 2011 Nokia -->
+<svg xmlns="http://www.w3.org/2000/svg" width="300px" preserveAspectRatio="none" baseProfile="tiny" height="257px" viewBox="0 0 300 257" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" zoomAndPan="magnify">
+ <defs>
+  <linearGradient id="g11lppxf2wche00" y1="0.0" y2="1.0" x1="0.0" x2="1.0">
+   <stop stop-color="#FFFFAA" offset="0.0"/>
+   <stop stop-color="#FFFFFF" offset="1.0"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <rect width="10" y="44" height="147" style="stroke: #A80036; stroke-width: 1.0;" x="24" fill="#FFFFFF"/>
+  <rect width="10" y="50" height="132" style="stroke: #A80036; stroke-width: 1.0;" x="80" fill="#FFFFFF"/>
+  <rect width="10" y="64" height="30" style="stroke: #A80036; stroke-width: 1.0;" x="140.5" fill="#FFFFFF"/>
+  <rect width="10" y="108" height="30" style="stroke: #A80036; stroke-width: 1.0;" x="201.5" fill="#FFFFFF"/>
+  <rect width="10" y="152" height="30" style="stroke: #A80036; stroke-width: 1.0;" x="262.5" fill="#FFFFFF"/>
+  <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" y1="34" y2="200" x1="29" x2="29"/>
+  <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" y1="34" y2="200" x1="85" x2="85"/>
+  <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" y1="34" y2="200" x1="145" x2="145"/>
+  <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" y1="34" y2="200" x1="206" x2="206"/>
+  <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" y1="34" y2="200" x1="267" x2="267"/>
+  <rect width="38" y="3" height="26" style="stroke: #A80036; stroke-width: 0.4;" x="8" fill="#FFFFFF"/>
+  <text y="20" font-family="sans-serif" x="15" fill="#000000" font-size="10">Client</text>
+  <rect width="38" y="199" height="26" style="stroke: #A80036; stroke-width: 0.4;" x="8" fill="#FFFFFF"/>
+  <text y="216" font-family="sans-serif" x="15" fill="#000000" font-size="10">Client</text>
+  <rect width="46" y="3" height="26" style="stroke: #A80036; stroke-width: 0.4;" x="60" fill="url(#g11lppxf2wche00)"/>
+  <text y="20" font-family="sans-serif" x="67" fill="#000000" font-size="10">Facade</text>
+  <rect width="46" y="199" height="26" style="stroke: #A80036; stroke-width: 0.4;" x="60" fill="url(#g11lppxf2wche00)"/>
+  <text y="216" font-family="sans-serif" x="67" fill="#000000" font-size="10">Facade</text>
+  <rect width="47" y="3" height="26" style="stroke: #A80036; stroke-width: 0.4;" x="120" fill="#FFFFFF"/>
+  <text y="20" font-family="sans-serif" x="127" fill="#000000" font-size="10">Class 1</text>
+  <rect width="47" y="199" height="26" style="stroke: #A80036; stroke-width: 0.4;" x="120" fill="#FFFFFF"/>
+  <text y="216" font-family="sans-serif" x="127" fill="#000000" font-size="10">Class 1</text>
+  <rect width="47" y="3" height="26" style="stroke: #A80036; stroke-width: 0.4;" x="181" fill="#FFFFFF"/>
+  <text y="20" font-family="sans-serif" x="188" fill="#000000" font-size="10">Class 2</text>
+  <rect width="47" y="199" height="26" style="stroke: #A80036; stroke-width: 0.4;" x="181" fill="#FFFFFF"/>
+  <text y="216" font-family="sans-serif" x="188" fill="#000000" font-size="10">Class 2</text>
+  <rect width="47" y="3" height="26" style="stroke: #A80036; stroke-width: 0.4;" x="242" fill="#FFFFFF"/>
+  <text y="20" font-family="sans-serif" x="249" fill="#000000" font-size="10">Class 3</text>
+  <rect width="47" y="199" height="26" style="stroke: #A80036; stroke-width: 0.4;" x="242" fill="#FFFFFF"/>
+  <text y="216" font-family="sans-serif" x="249" fill="#000000" font-size="10">Class 3</text>
+  <rect width="10" y="44" height="147" style="stroke: #A80036; stroke-width: 1.0;" x="24" fill="#FFFFFF"/>
+  <rect width="10" y="50" height="132" style="stroke: #A80036; stroke-width: 1.0;" x="80" fill="#FFFFFF"/>
+  <rect width="10" y="64" height="30" style="stroke: #A80036; stroke-width: 1.0;" x="140.5" fill="#FFFFFF"/>
+  <rect width="10" y="108" height="30" style="stroke: #A80036; stroke-width: 1.0;" x="201.5" fill="#FFFFFF"/>
+  <rect width="10" y="152" height="30" style="stroke: #A80036; stroke-width: 1.0;" x="262.5" fill="#FFFFFF"/>
+  <polygon style="stroke: #A80036; stroke-width: 1.0;" points="68,46,78,50,68,54,72,50" fill="#A80036"/>
+  <line style="stroke: #A80036; stroke-width: 1.0;" y1="50" y2="50" x1="34" x2="74"/>
+  <polygon style="stroke: #A80036; stroke-width: 1.0;" points="128.5,60,138.5,64,128.5,68,132.5,64" fill="#A80036"/>
+  <line style="stroke: #A80036; stroke-width: 1.0;" y1="64" y2="64" x1="90" x2="134.5"/>
+  <polygon style="stroke: #A80036; stroke-width: 1.0;" points="189.5,104,199.5,108,189.5,112,193.5,108" fill="#A80036"/>
+  <line style="stroke: #A80036; stroke-width: 1.0;" y1="108" y2="108" x1="90" x2="195.5"/>
+  <polygon style="stroke: #A80036; stroke-width: 1.0;" points="250.5,148,260.5,152,250.5,156,254.5,152" fill="#A80036"/>
+  <line style="stroke: #A80036; stroke-width: 1.0;" y1="152" y2="152" x1="90" x2="256.5"/>
+  <text y="244" font-family="sans-serif" x="3" font-style="italic" fill="#888888" font-size="10">Sample sequence diagram</text>
+ </g>
+</svg>

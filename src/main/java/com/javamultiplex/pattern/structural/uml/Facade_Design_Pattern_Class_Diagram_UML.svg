@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!-- Converted with SVG Converter - Version 0.9.6 (Compiled Thu Aug 31 10:01:05 2017) - Copyright (C) 2011 Nokia -->
+<svg xmlns="http://www.w3.org/2000/svg" width="300.7444px" preserveAspectRatio="none" baseProfile="tiny" height="300.7444px" viewBox="0 0 300 300" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" zoomAndPan="magnify">
+ <defs>
+  <linearGradient id="gb0qqfgdndzby0" y1="0.0" y2="1.0" x1="0.0" x2="1.0">
+   <stop stop-color="#FFFFAA" offset="0.0"/>
+   <stop stop-color="#FFFFFF" offset="1.0"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <rect width="226.3027" y="17.866" height="238.9578" style="stroke: #000000; stroke-width: 1.1166253418827863;" x="66.6253" fill="#FFFFFF"/>
+  <text y="35.7321" font-family="sans-serif" x="234.8635" fill="#000000" font-weight="bold" font-size="8.933">Subsystem</text>
+  <rect width="49.8759" y="134.7395" height="33.0522" id="class_1" style="stroke: #A80036; stroke-width: 0.2977667578354097;" x="78.9082" fill="#FFFFFF"/>
+  <text y="154.8388" font-family="sans-serif" x="88.5856" fill="#000000" font-size="8.933">Class 1</text>
+  <rect width="26.0546" y="212.1588" height="33.0522" id="class_1_d1" style="stroke: #A80036; stroke-width: 0.2977667578354097;" x="154.8387" fill="#FFFFFF"/>
+  <text y="232.2581" font-family="sans-serif" x="171.2159" fill="#000000" font-size="8.933"/>
+  <rect width="26.0546" y="212.1588" height="33.0522" id="class_1_d2" style="stroke: #A80036; stroke-width: 0.2977667578354097;" x="90.8189" fill="#FFFFFF"/>
+  <text y="232.2581" font-family="sans-serif" x="107.196" fill="#000000" font-size="8.933"/>
+  <rect width="26.0546" y="57.3201" height="33.0522" id="class_2_d" style="stroke: #A80036; stroke-width: 0.2977667578354097;" x="172.7047" fill="#FFFFFF"/>
+  <text y="77.4194" font-family="sans-serif" x="189.0819" fill="#000000" font-size="8.933"/>
+  <rect width="49.8759" y="134.7395" height="33.0522" id="class_2" style="stroke: #A80036; stroke-width: 0.2977667578354097;" x="154.8387" fill="#FFFFFF"/>
+  <text y="154.8388" font-family="sans-serif" x="164.5161" fill="#000000" font-size="8.933">Class 2</text>
+  <rect width="26.0546" y="57.3201" height="33.0522" id="class_3_d" style="stroke: #A80036; stroke-width: 0.2977667578354097;" x="236.7246" fill="#FFFFFF"/>
+  <text y="77.4194" font-family="sans-serif" x="253.1017" fill="#000000" font-size="8.933"/>
+  <rect width="49.8759" y="134.7395" height="33.0522" id="class_3" style="stroke: #A80036; stroke-width: 0.2977667578354097;" x="230.7692" fill="#FFFFFF"/>
+  <text y="154.8388" font-family="sans-serif" x="240.4467" fill="#000000" font-size="8.933">Class 3</text>
+  <rect width="41.6873" y="134.7395" height="33.0522" id="Client" style="stroke: #A80036; stroke-width: 0.2977667578354097;" x="8.5608" fill="#FFFFFF"/>
+  <text y="154.8388" font-family="sans-serif" x="18.2382" fill="#000000" font-size="8.933">Client</text>
+  <rect width="49.8759" y="57.3201" height="33.0522" id="Facade" style="stroke: #A80036; stroke-width: 0.2977667578354097;" x="4.4665" fill="url(#gb0qqfgdndzby0)"/>
+  <text y="77.4194" font-family="sans-serif" x="14.1439" font-style="italic" fill="#000000" font-size="8.933">Facade</text>
+  <path id="Facade-Client" style="stroke: #A80036; stroke-width: 0.7444168945885242;" fill="none" d="M29.4045,93.9752 C29.4045,106.6154 29.4045,122.8511 29.4045,134.6576 "/>
+  <polygon style="stroke: #A80036; stroke-width: 0.7444168945885242;" points="29.4045,90.1712,26.4268,96.871,29.4045,93.8933,32.3821,96.871,29.4045,90.1712" fill="#A80036"/>
+  <path id="class_1-class_1_d1" style="stroke: #A80036; stroke-width: 0.7444168945885242;" fill="none" d="M117.1117,167.5906 C127.3102,179.6874 141.4243,196.4293 152.1811,209.1886 "/>
+  <polygon style="stroke: #A80036; stroke-width: 0.7444168945885242;" points="154.8387,212.3375,152.783,205.2999,152.434,209.4965,148.2374,209.1475,154.8387,212.3375" fill="#A80036"/>
+  <path id="class_1-class_1_d2" style="stroke: #A80036; stroke-width: 0.7444168945885242;" fill="none" d="M103.8462,167.5906 C103.8462,179.4045 103.8462,195.6476 103.8462,208.2804 "/>
+  <polygon style="stroke: #A80036; stroke-width: 0.7444168945885242;" points="103.8462,212.0769,106.8238,205.3772,103.8462,208.3548,100.8685,205.3772,103.8462,212.0769" fill="#A80036"/>
+  <path id="class_2_d-class_2" style="stroke: #A80036; stroke-width: 0.7444168945885242;" fill="none" d="M183.3275,105.0893 C182.531,115.2357 181.6824,126.1117 181.0124,134.6576 "/>
+  <polygon style="stroke: #A80036; stroke-width: 0.7444168945885242;" points="178.139,104.6129,184.4963,90.1712,188.531,105.4243,178.139,104.6129" fill="none"/>
+  <path id="class_3_d-class_3" style="stroke: #A80036; stroke-width: 0.7444168945885242;" fill="none" d="M252.1563,105.0893 C252.9529,115.2357 253.8015,126.1117 254.4715,134.6576 "/>
+  <polygon style="stroke: #A80036; stroke-width: 0.7444168945885242;" points="246.9529,105.4243,250.9876,90.1712,257.3449,104.6129,246.9529,105.4243" fill="none"/>
+  <path id="Facade-class_1" style="stroke: #A80036; stroke-width: 0.7444168945885242;" fill="none" d="M44.8288,90.1712 C56.7097,102.2903 73.1538,119.0695 85.6749,131.8362 "/>
+  <polygon style="stroke: #A80036; stroke-width: 0.7444168945885242;" points="88.4442,134.6576,85.8815,127.7884,85.839,131.9992,81.6281,131.9567,88.4442,134.6576" fill="#A80036"/>
+  <path id="Facade-class_2" style="stroke: #A80036; stroke-width: 0.7444168945885242;" fill="none" d="M54.5732,87.1489 C81.3275,100.6601 123.5434,121.9802 151.4442,136.0645 "/>
+  <polygon style="stroke: #A80036; stroke-width: 0.7444168945885242;" points="154.7792,137.7469,150.1474,132.0636,151.4586,136.0653,147.4569,137.3765,154.7792,137.7469" fill="#A80036"/>
+  <path id="Facade-class_3" style="stroke: #A80036; stroke-width: 0.7444168945885242;" fill="none" d="M54.4839,85.4144 C58.5186,87.0521 62.665,88.6601 66.6253,90.0744 C132.5955,113.598 151.6898,111.4467 217.7419,134.7395 C220.7866,135.8114 223.9429,136.995 227.0695,138.2159 "/>
+  <polygon style="stroke: #A80036; stroke-width: 0.7444168945885242;" points="230.732,139.6601,225.6034,134.4207,227.2725,138.2869,223.4063,139.956,230.732,139.6601" fill="#A80036"/>
+  <text y="291.067" font-family="sans-serif" x="7.4442" font-style="italic" fill="#888888" font-size="7.4442">Sample class diagram</text>
+ </g>
+</svg>
