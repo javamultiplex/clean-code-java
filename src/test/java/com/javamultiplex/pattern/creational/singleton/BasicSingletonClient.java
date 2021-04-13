@@ -1,9 +1,7 @@
 package com.javamultiplex.pattern.creational.singleton;
 
-import com.javamultiplex.util.SerializationUtil;
 import org.junit.jupiter.api.Test;
 
-import java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Arrays;
@@ -17,6 +15,16 @@ import static org.junit.jupiter.api.Assertions.*;
  * @copyright www.javamultiplex.com
  */
 public class BasicSingletonClient {
+
+
+    @Test
+    public void singletonTest() {
+        BasicSingleton instance1 = BasicSingleton.getInstance();
+        BasicSingleton instance2 = BasicSingleton.getInstance();
+        System.out.println(instance1.hashCode());
+        System.out.println(instance2.hashCode());
+        assertSame(instance1, instance2);
+    }
 
     @Test
     public void shouldCreateTwoInstancesUsingReflection() throws IllegalAccessException, InvocationTargetException, InstantiationException {
@@ -42,17 +50,5 @@ public class BasicSingletonClient {
         assertNotSame(basicSingleton, newInstance);
         assertEquals(110, basicSingleton.getValue());
         assertEquals(30, newInstance.getValue());
-    }
-
-    @Test
-    public void shouldNotCreateTwoInstancesUsingSerialization() throws IOException, ClassNotFoundException {
-        BasicSingleton basicSingleton = BasicSingleton.getInstance();
-        basicSingleton.setValue(110);
-        SerializationUtil.serialize(basicSingleton, "singleton.ser");
-        BasicSingleton another = (BasicSingleton) SerializationUtil.deserialize("singleton.ser");
-        another.setValue(11);
-        assertSame(basicSingleton, another);
-        assertEquals(11, basicSingleton.getValue());
-        assertEquals(11, another.getValue());
     }
 }

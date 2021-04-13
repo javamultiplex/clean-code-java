@@ -4,14 +4,17 @@ package com.javamultiplex.pattern.creational.singleton;
  * @author Rohit Agarwal on 27/08/20 11:59 pm
  * @copyright www.javamultiplex.com
  */
-public class BasicSingleton {
-    private static final BasicSingleton INSTANCE = new BasicSingleton();
+public class SingletonV2 {
+    private static final SingletonV2 INSTANCE = new SingletonV2();
     private int value;
 
-    private BasicSingleton() {
+    private SingletonV2() {
+        if (INSTANCE != null) {
+            throw new InstantiationError("Object Creation is not allowed.");
+        }
     }
 
-    public static BasicSingleton getInstance() {
+    public static SingletonV2 getInstance() {
         return INSTANCE;
     }
 
